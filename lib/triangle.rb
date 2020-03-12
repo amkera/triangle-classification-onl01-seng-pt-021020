@@ -7,7 +7,8 @@ class Triangle
   
   def kind(all_sides)
     if (:side1 + :side2) < :side3 || (:side1 + :side3) < :side3 || (:side2 + :side3) < :side1
-      
+      begin
+      raise TriangleError
   
   
   class TriangleError < StandardError
