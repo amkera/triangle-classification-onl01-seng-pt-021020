@@ -10,6 +10,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error 
+      
   
   
   class TriangleError < StandardError
