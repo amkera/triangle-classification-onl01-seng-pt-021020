@@ -1,3 +1,11 @@
 class Triangle
-  # write code here
+  attr_accessor :side1, :side2, :side3
+  
+  def kind 
+  end 
+  
+  class TriangleError < Standard Error 
+  end
+  
+  
 end
