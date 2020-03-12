@@ -17,7 +17,7 @@ class Triangle
         :equilateral 
       elsif (@side1 == @side2) || (@side2 == @side3) || (@side1 == @side3)
         :isosceles
-      elsif (@side1 != @side2)
+      elsif (@side1 != @side2) &&
   
   class TriangleError < StandardError
     # triangle error code
