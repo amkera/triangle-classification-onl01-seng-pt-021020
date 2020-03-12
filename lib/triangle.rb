@@ -5,7 +5,13 @@ class Triangle
     all_sides.each {|key, value| self.send(( "#{key}="), value)}
   end 
   
+  def kind(all_sides)
+    if (:side1 + :side2) < :side3 || (:side1 + :side3) < :side3 || (:side2 + :side3) < :side1
+      
   
   
+  class TriangleError < StandardError
+    # triangle error code
+  end
   
 end
